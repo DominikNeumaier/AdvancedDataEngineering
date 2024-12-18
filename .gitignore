@@ -15,11 +15,10 @@ ENV/
 # Ignore Jupyter Notebook output
 *.ipynb
 
-# Ignore data files
-
-
 # Ignore system files
 .DS_Store
+
+.vscode
 
 
 # Location of your big data files
