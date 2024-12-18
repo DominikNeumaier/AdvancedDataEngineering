@@ -22,4 +22,4 @@ ENV/
 
 
 # Location of your big data files
-Data/bigDataSet.csv
+data/bigDataSet.csv
