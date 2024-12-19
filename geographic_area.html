@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_65865a2bc532df5d84c180629ebcdd3c {
+                #map_85f7f3e410ebd24758f74f2a0a832398 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,23 +39,20 @@
 <body>
     
     
-            <div class="folium-map" id="map_65865a2bc532df5d84c180629ebcdd3c" ></div>
+            <div class="folium-map" id="map_85f7f3e410ebd24758f74f2a0a832398" ></div>
         
 </body>
 <script>
     
     
-            var map_65865a2bc532df5d84c180629ebcdd3c = L.map(
-                "map_65865a2bc532df5d84c180629ebcdd3c",
+            var map_85f7f3e410ebd24758f74f2a0a832398 = L.map(
+                "map_85f7f3e410ebd24758f74f2a0a832398",
                 {
                     center: [45.0583245228913, 0.6553870844086003],
                     crs: L.CRS.EPSG3857,
-                    ...{
-  "zoom": 5,
-  "zoomControl": true,
-  "preferCanvas": false,
-}
-
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
                 }
             );
 
@@ -63,44 +60,31 @@
 
         
     
-            var tile_layer_e215421cbdd8788c7321cb2f56179b59 = L.tileLayer(
+            var tile_layer_9833f541981444c8dea1846fa5127df1 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {
-  "minZoom": 0,
-  "maxZoom": 19,
-  "maxNativeZoom": 19,
-  "noWrap": false,
-  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
-  "subdomains": "abc",
-  "detectRetina": false,
-  "tms": false,
-  "opacity": 1,
-}
-
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_e215421cbdd8788c7321cb2f56179b59.addTo(map_65865a2bc532df5d84c180629ebcdd3c);
+            tile_layer_9833f541981444c8dea1846fa5127df1.addTo(map_85f7f3e410ebd24758f74f2a0a832398);
         
     
-            var rectangle_0b0565d0ed48bbb2040fb908815df7f4 = L.rectangle(
+            var rectangle_a92774b267f343e701d5370c5b7d2483 = L.rectangle(
                 [[36.0000915527344, -12.5352388269761], [54.1165574930482, 13.8460129957933]],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_65865a2bc532df5d84c180629ebcdd3c);
+            ).addTo(map_85f7f3e410ebd24758f74f2a0a832398);
         
     
-        var popup_755faa5b7c50a30c9ac0b8316823eb91 = L.popup({
-  "maxWidth": "100%",
-});
+        var popup_c455f97babfda8cf5274d08f93b8eb80 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_8a5c4ca77fdf99954a46bbcf7de3459d = $(`<div id="html_8a5c4ca77fdf99954a46bbcf7de3459d" style="width: 100.0%; height: 100.0%;">Geographischer Bereich</div>`)[0];
-                popup_755faa5b7c50a30c9ac0b8316823eb91.setContent(html_8a5c4ca77fdf99954a46bbcf7de3459d);
+                var html_ea78e4471d5acca1029971240b21f563 = $(`<div id="html_ea78e4471d5acca1029971240b21f563" style="width: 100.0%; height: 100.0%;">Geographischer Bereich</div>`)[0];
+                popup_c455f97babfda8cf5274d08f93b8eb80.setContent(html_ea78e4471d5acca1029971240b21f563);
             
         
 
-        rectangle_0b0565d0ed48bbb2040fb908815df7f4.bindPopup(popup_755faa5b7c50a30c9ac0b8316823eb91)
+        rectangle_a92774b267f343e701d5370c5b7d2483.bindPopup(popup_c455f97babfda8cf5274d08f93b8eb80)
         ;
 
         

@@ -22,5 +22,9 @@ ENV/
 
 
 # Location of your big data files
+/data/
+/Data/
 data/bigDataSet.csv
 data/20230126_merged.csv
+data/airports.csv
+Data/airports.csv
