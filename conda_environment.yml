@@ -309,4 +309,3 @@ dependencies:
   - zipp=3.21.0=pyhd8ed1ab_1
   - zstandard=0.23.0=py312hef9b889_1
   - zstd=1.5.6=ha6fb4c9_0
-prefix: /home/thilo/.conda/envs/flight_data_analysis
