@@ -25,6 +25,7 @@ USER $NB_UID
 
 # Exponiere den Jupyter-Port
 EXPOSE 8888
+EXPOSE 8080
 
 # Starte Jupyter Notebook automatisch
 CMD ["start-notebook.sh", "--NotebookApp.token=''", "--NotebookApp.allow_origin='*'", "--NotebookApp.ip='0.0.0.0'", "--NotebookApp.port=8888"]
