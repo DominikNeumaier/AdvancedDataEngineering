@@ -21,7 +21,7 @@ ln -sfn $(which docker-buildx) ~/.docker/cli-plugins/docker-buildx
 Es ist wichtig, dass der Container genug Ressourcen bekommt. Bei Colima hat der Default zu wenig Ressourcen. Es sollte mindestens 8GB RAM und 4 CPUs zugewiesen werden. Mit Colima kann der Docker Deamon wie folgt gestartet werden:
 
 ```bash
-colima start --cpus 4 --memory 8GB
+colima start --cpu 4 --memory 8
 ```
 
 ### Build Image
