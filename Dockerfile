@@ -19,6 +19,7 @@ USER root
 RUN mkdir -p /usr/local/spark/conf && touch /usr/local/spark/conf/spark-env.sh && chmod 777 /usr/local/spark/conf/spark-env.sh
 RUN mkdir -p /usr/local/spark/logs && chmod -R 777 /usr/local/spark/logs
 RUN mkdir -p /usr/local/spark/work && chmod -R 777 /usr/local/spark/work
+RUN mkdir -p /app/.ipynb_checkpoints && chmod -R 777 /app/.ipynb_checkpoints
 
 # Switch back to the default user
 USER $NB_UID
