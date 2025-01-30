@@ -17,6 +17,8 @@ USER root
 
 # Erstelle eine leere spark-env.sh Datei mit korrekten Berechtigungen
 RUN mkdir -p /usr/local/spark/conf && touch /usr/local/spark/conf/spark-env.sh && chmod 777 /usr/local/spark/conf/spark-env.sh
+RUN mkdir -p /usr/local/spark/logs && chmod -R 777 /usr/local/spark/logs
+RUN mkdir -p /usr/local/spark/work && chmod -R 777 /usr/local/spark/work
 
 # Switch back to the default user
 USER $NB_UID
