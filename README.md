@@ -1,5 +1,9 @@
 # Flight Data Analysis Notebook
 
+## Daten
+
+Die Daten können über den folgenden Link heruntergeladen werden: [Daten](https://1drv.ms/u/c/f804c80fb0165847/ER5Lx1FIxjtBgpW-FLOE5WsBBHkU-Akgc_xCeGwLFQkiKQ). Die Dateien sollten in einem Verzeichnis namens `data` im Root-Verzeichnis des Projekts abgelegt werden.
+
 ## Docker
 
 ### Installation MacOS mit Colima
