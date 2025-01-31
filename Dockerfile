@@ -1,4 +1,4 @@
-FROM jupyter/pyspark-notebook:latest
+FROM jupyter/pyspark-notebook:x86_64-ubuntu-22.04
 
 # Setze das Arbeitsverzeichnis
 WORKDIR /app
@@ -29,4 +29,4 @@ EXPOSE 8888
 EXPOSE 8080
 
 # Starte Jupyter Notebook automatisch
-CMD ["start-notebook.sh", "--NotebookApp.token=''", "--NotebookApp.allow_origin='*'", "--NotebookApp.ip='0.0.0.0'", "--NotebookApp.port=8888"]
+CMD ["start-notebook.sh", "--NotebookApp.token=''", "--NotebookApp.password=''",  "--NotebookApp.allow_origin='*'", "--NotebookApp.ip='0.0.0.0'", "--NotebookApp.port=8888"]
