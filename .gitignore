@@ -22,4 +22,5 @@ ENV/
 .idea
 
 # Ignore data files
-data/
+data/*
+!data/.gitkeep
