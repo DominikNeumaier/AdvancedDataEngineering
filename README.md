@@ -10,13 +10,13 @@ Im Verzeichnis `data` befinden sich folgende Dateien:
 
 - `airports.parquet`: Enthält die gleichen Informationen wie `airports.csv`, jedoch im Parquet-Format.
 
-- `flightdata_worldwide.csv` enthält einen Ausschnitt der Weltweiten Flugdaten. Kann im Notebook als `flight_data_path` gesetzt werden, wenn das Notebook schnell ausgeführt werden soll.
+- `flightdata_worldwide.csv`: Enthält einen Ausschnitt der Weltweiten Flugdaten. Kann im Notebook als `flight_data_path` gesetzt werden, wenn das Notebook schnell ausgeführt werden soll.
 
-- `flightdata_france` enthält einen Ausschnitt der Flugdaten in Frankreich. Kann im Notebook als `flight_data_path` gesetzt werden, wenn die Analysen detallierter durchgeführt werden sollen. Diese Datei ist jedoch sehr groß und kann das Notebook verlangsamen. Bitte beachten, dass die Daten trotzdem weit entfernt davon sind, vollständig zu sein. Das Openskynetwork stellt zum Beispiel keine Flugdaten über Ozzeanen zur Verfügung.
+- `flightdata_france`: Enthält einen Ausschnitt der Flugdaten in Frankreich. Kann im Notebook als `flight_data_path` gesetzt werden, wenn die Analysen detallierter durchgeführt werden sollen. Diese Datei ist jedoch sehr groß und kann das Notebook verlangsamen. Bitte beachten, dass die Daten trotzdem weit entfernt davon sind, vollständig zu sein. Das OpenSky Network stellt zum Beispiel keine Flugdaten über Ozeanen zur Verfügung.
 
-- `aircraft-database-complete-2024-10.csv` enthält Informationen zu Flugzeugen.
+- `aircraft-database-complete-2024-10.csv`: Enthält Informationen zu Flugzeugen.
 
-- `parquet_poc_csv.csv` enthält Informationen zu Flügen im CSV-Format. Im Notebook wird hieraus im PoC ein Parquet-File erstellt.
+- `parquet_poc_csv.csv`: Enthält Informationen zu Flügen im CSV-Format. Im Notebook wird hieraus im PoC ein Parquet-File erstellt.
 
 
 
