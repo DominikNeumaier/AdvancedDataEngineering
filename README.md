@@ -86,7 +86,7 @@ Die Docker Engine sollte automatisch gestartet werden, wenn Docker Desktop insta
 Das Image kann mit folgendem Befehl aus dem GitHub Container Registry heruntergeladen werden:
 
 ```bash
-docker pull ghcr.io/rollstuhlrocker/flight-data-analysis:latest
+docker pull ghcr.io/rollstuhlrocker/flight-data-analysis:abgabe
 ```
 
 
